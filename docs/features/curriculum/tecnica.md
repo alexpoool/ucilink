@@ -1,6 +1,6 @@
 # curriculum — técnico
 
-Estado: **diseño comprometido** (implementación en curso).
+Estado: **implementado** (backend/src/features/curriculum).
 
 ## Responsabilidad
 CVs del aspirante. Varias versiones por aspirante; una es principal y visible.
