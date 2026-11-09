@@ -1,6 +1,6 @@
 # oferta — técnico
 
-Estado: **diseño comprometido** (implementación en curso).
+Estado: **implementado** (backend/src/features/oferta).
 
 ## Responsabilidad
 Tabla ÚNICA `oferta` para ambos autores (espeja el CHECK de esquema.sql):
