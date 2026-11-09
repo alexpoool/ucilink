@@ -27,4 +27,6 @@ export interface EmpresaRepository {
   buscarPorId(id: string): Promise<Empresa | null>;
   crear(input: CrearEmpresaInput, usuarioId: string): Promise<Empresa>;
   actualizar(id: string, input: ActualizarEmpresaInput): Promise<Empresa>;
+  // Funcionalidad de administración (feature admin la usa por este puerto).
+  cambiarVerificacion(id: string, verificada: boolean): Promise<Empresa>;
 }

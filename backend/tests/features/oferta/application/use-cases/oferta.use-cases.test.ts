@@ -86,6 +86,7 @@ function crearDatos() {
     buscarPorId: jest.fn().mockResolvedValue(empresa),
     crear: jest.fn(),
     actualizar: jest.fn(),
+    cambiarVerificacion: jest.fn(),
   };
   return { ofertaRepo, aspiranteRepo, empresaRepo };
 }

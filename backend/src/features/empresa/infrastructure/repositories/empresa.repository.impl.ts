@@ -97,4 +97,13 @@ export class EmpresaRepositoryImpl implements EmpresaRepository {
     );
     return mapear(res.rows[0]);
   }
+
+  async cambiarVerificacion(id: string, verificada: boolean): Promise<Empresa> {
+    // Acción EXCLUSIVA del rol admin (feature admin, use-case verificar-empresa).
+    const res = await this.db.query<EmpresaRow>(
+      'UPDATE empresa SET verificada = $2, updated_at = now() WHERE id = $1 RETURNING ' + COLUMNAS,
+      [id, verificada],
+    );
+    return mapear(res.rows[0]);
+  }
 }

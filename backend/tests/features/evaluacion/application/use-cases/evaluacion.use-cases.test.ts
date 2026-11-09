@@ -87,7 +87,7 @@ function datos() {
   };
   const empresaRepo: jest.Mocked<EmpresaRepository> = {
     buscarPorUsuarioId: jest.fn(), buscarPorId: jest.fn().mockResolvedValue(empresa),
-    crear: jest.fn(), actualizar: jest.fn(),
+    crear: jest.fn(), actualizar: jest.fn(), cambiarVerificacion: jest.fn(),
   };
   const evaluacionRepo: jest.Mocked<EvaluacionRepository> = {
     buscarPorId: jest.fn().mockResolvedValue(evaluacion()),

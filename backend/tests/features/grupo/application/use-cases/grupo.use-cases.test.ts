@@ -117,6 +117,7 @@ function datos() {
     buscarPorId: jest.fn().mockResolvedValue({ id: '88888888-8888-8888-8888-888888888888', usuarioId: '99999999-9999-9999-9999-999999999999' }),
     crear: jest.fn(),
     actualizar: jest.fn(),
+    cambiarVerificacion: jest.fn(),
   };
   const notificaciones: jest.Mocked<CreadorNotificaciones> = { crear: jest.fn().mockResolvedValue(undefined) };
 

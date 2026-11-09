@@ -30,6 +30,7 @@ function datosEmpresas(): jest.Mocked<EmpresaRepository> {
     buscarPorId: jest.fn(),
     crear: jest.fn().mockResolvedValue(empresa),
     actualizar: jest.fn(),
+    cambiarVerificacion: jest.fn(),
   } as jest.Mocked<EmpresaRepository>;
 }
 
