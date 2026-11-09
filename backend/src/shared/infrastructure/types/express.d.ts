@@ -5,7 +5,6 @@ declare global {
       usuario?: {
         id: string;
         rol: 'aspirante' | 'empresa' | 'admin';
-        perfilId: string | null;
       };
     }
   }
