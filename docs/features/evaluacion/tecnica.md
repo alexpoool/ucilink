@@ -1,6 +1,6 @@
 # evaluacion — técnico
 
-Estado: **diseño comprometido** (implementación en curso).
+Estado: **implementado** (backend/src/features/evaluacion).
 
 ## Responsabilidad
 Pipeline de postulaciones: aspira/grupo aplican; empresa evalúa el CV con estados.
