@@ -1,0 +1,11 @@
+node_modules
+.next
+out
+coverage
+.env.local
+.env*.local
+tests
+*.log
+.git
+Dockerfile
+.dockerignore
