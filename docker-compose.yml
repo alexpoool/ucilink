@@ -13,7 +13,7 @@ services:
     volumes:
       - pgdata:/var/lib/postgresql/data
     ports:
-      - "5432:5432"
+      - "25032:5432" # 5432 del host LO OCUPA un postgres local — compose expone 25032; el backend conecta por la red interna (db:5432)
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U ucilink -d ucilink"]
       interval: 3s
