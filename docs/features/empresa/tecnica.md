@@ -1,6 +1,6 @@
 # empresa — técnico
 
-Estado: **diseño comprometido** (implementación en curso).
+Estado: **implementado** (backend/src/features/empresa).
 
 ## Responsabilidad
 Perfil de empresa + métricas de su dashboard (ofertas por estado, CVs recibidos, valoraciones).
