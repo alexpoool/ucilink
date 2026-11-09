@@ -14,7 +14,7 @@ export async function up(db: Database): Promise<void> {
   await db.transaction(async (client) => {
     await client.query(`
       CREATE TYPE tipo_notificacion AS ENUM
-        ('cv_recibido', 'valoracion', 'respuesta', 'invitacion', 'sistema')
+        ('cv_recibido', 'invitacion_grupo', 'valoracion', 'respuesta', 'sistema')
     `);
 
     await client.query(`
