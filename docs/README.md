@@ -17,13 +17,14 @@ docs/
     └── usuario.md
 ```
 
-Features (10, igual que en backend/ y webapp/):
+Features (11, igual que en backend/ y webapp/):
 
 | Feature | Doc técnica | Doc usuario |
 |---|---|---|
 | auth | features/auth/tecnica.md | features/auth/usuario.md |
 | aspirante | features/aspirante/tecnica.md | features/aspirante/usuario.md |
 | empresa | features/empresa/tecnica.md | features/empresa/usuario.md |
+| media | features/media/tecnica.md | features/media/usuario.md |
 | curriculum | features/curriculum/tecnica.md | features/curriculum/usuario.md |
 | oferta | features/oferta/tecnica.md | features/oferta/usuario.md |
 | evaluacion | features/evaluacion/tecnica.md | features/evaluacion/usuario.md |

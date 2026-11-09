@@ -12,6 +12,8 @@ const envSchema = z.object({
   JWT_EXPIRES_IN: z.string().default('7d'),
   CORS_ORIGIN: z.string().default('http://localhost:3000'),
   LOG_LEVEL: z.enum(['fatal', 'error', 'warn', 'info', 'debug', 'trace']).default('info'),
+  UPLOADS_DIR: z.string().default('/data/uploads'),
+  UPLOAD_MAX_BYTES: z.coerce.number().int().positive().default(10 * 1024 * 1024), // 10 MB
 });
 
 const parsed = envSchema.safeParse(process.env);

@@ -5,7 +5,7 @@ La ventana de tu empresa: datos legales, descripción y métricas de tu activida
 
 ## Crear el perfil (primer paso tras registrarte como empresa)
 1. Completa **nombre** de la empresa (obligatorio).
-2. Opcional: razón social, RUC, sector, descripción, sitio web, logo (URL), ciudad.
+2. Opcional: razón social, RUC, sector, descripción, sitio web, logo (sube una imagen con **Subir archivo** — queda guardada en el almacenamiento persistente), ciudad.
 3. Guardar. Solo puedes tener un perfil; para cambiar algo usa editar.
 
 ## Verificación

@@ -32,11 +32,16 @@ services:
       JWT_EXPIRES_IN: 7d
       CORS_ORIGIN: http://localhost:3000
       LOG_LEVEL: info
+      # Volumen persistente para archivos (CVs PDF, logos): /data/uploads
+      UPLOADS_DIR: /data/uploads
+      UPLOAD_MAX_BYTES: "10485760"
     depends_on:
       db:
         condition: service_healthy
     ports:
       - "4000:4000"
+    volumes:
+      - uploads:/data/uploads
     # Aplica migraciones pendientes (incluye notificacion) y levanta el server.
     # runner.js compila a dist/migrations porque tsconfig incluye migrations/.
     command: >
@@ -58,3 +63,4 @@ services:
 
 volumes:
   pgdata:
+  uploads:

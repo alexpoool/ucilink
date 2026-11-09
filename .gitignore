@@ -1,4 +1,5 @@
 pgdata/
+uploads/
 node_modules/
 .env
 *.log

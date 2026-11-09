@@ -7,7 +7,7 @@ Tu(s) currículum(s) dentro de UCI Link — la versión estructurada que leen la
 1. En /aspirante/curriculos pulsa **Nuevo currículum**.
 2. Título (p.ej. "Full-stack junior — TS/Node").
 3. Resumen, educación (agrega entradas), experiencia, proyectos, habilidades, idiomas.
-4. Opcional: pega la URL de tu CV en PDF (Google Drive público, portafolio...).
+4. Opcional: pega la URL de tu CV en PDF (o sube el archivo directamente con el botón **Subir archivo** — se guarda en el almacenamiento persistente de UCI Link).
 5. Guardar. Tu PRIMER CV queda automáticamente como **principal**.
 
 ## Consejos
