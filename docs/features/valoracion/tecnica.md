@@ -1,6 +1,6 @@
 # valoracion — técnico
 
-Estado: **diseño comprometido** (implementación en curso).
+Estado: **implementado** (backend/src/features/valoracion).
 
 ## Responsabilidad
 Reacciones like/dislike en 3 contextos (3 tablas, mismo patrón semántico):
