@@ -1,6 +1,6 @@
 # grupo — técnico
 
-Estado: **diseño comprometido** (implementación en curso).
+Estado: **implementado** (backend/src/features/grupo).
 
 ## Responsabilidad
 Formar equipos y aplicar en equipo a ofertas dash/feat.
