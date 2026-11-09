@@ -33,5 +33,6 @@ Features (11, igual que en backend/ y webapp/):
 | notificacion | features/notificacion/tecnica.md | features/notificacion/usuario.md |
 | admin | features/admin/tecnica.md | features/admin/usuario.md |
 
-Estado de implementación: los docs marcan con **(diseño comprometido)** lo que aún
-no tiene código y se actualizan con cada entrega.
+Estado de implementación: los 11 features backend están **implementados** en
+`backend/src/features/` (cada doc técnica lo declara en su encabezado).
+Pendiente: frontend (`webapp/`) y verificación tsc/jest en Docker.
