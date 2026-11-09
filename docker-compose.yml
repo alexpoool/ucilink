@@ -4,7 +4,7 @@
 # migraciones up()/down() (npm run db:migrate).
 services:
   db:
-    image: postgres:16-alpine
+    build: ./db
     container_name: ucilink-db
     environment:
       POSTGRES_USER: ucilink
@@ -12,7 +12,6 @@ services:
       POSTGRES_DB: ucilink
     volumes:
       - pgdata:/var/lib/postgresql/data
-      - ./db/init:/docker-entrypoint-initdb.d:ro
     ports:
       - "5432:5432"
     healthcheck:

@@ -1,6 +1,6 @@
 # admin — técnico
 
-Estado: **diseño comprometido** (implementación en curso).
+Estado: **implementado** (backend/src/features/admin).
 
 ## Responsabilidad
 Supervisión global: verificar empresas, moderar ofertas, suspender/reactivar usuarios.
